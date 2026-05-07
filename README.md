@@ -172,10 +172,6 @@ The notebook:
 - visualized MRI and PET slices for a selected subject,
 - and defined the research scope for the next stages.
 
-### Important Note About ADNI
-
-The dataset selection notebook states that ADNI access had been applied for, but access had not been granted at that deliverable stage. Therefore, ADNI was not included in that deliverable.
-
 ---
 
 ## Baseline Model
@@ -556,19 +552,16 @@ Important papers listed in the SOA survey include:
 
 The attached files show the following limitations:
 
-1. **ADNI was not included in the dataset selection deliverable**
-   - The dataset selection notebook states that ADNI access had been applied for but had not yet been granted.
-
-2. **The final dataset is small for 3D deep learning**
+1. **The final dataset is small for 3D deep learning**
    - The final multimodal dataset contained 156 samples from 52 subjects.
 
-3. **The positive class remains difficult**
+2. **The positive class remains difficult**
    - The final model improved over the collapsed baseline, but positive recall was still 0.3333.
 
-4. **Acquisition proxy groups are batch-based**
+3. **Acquisition proxy groups are batch-based**
    - The final notebook uses batch IDs as acquisition proxy groups.
 
-5. **External validation remains an important future requirement**
+4. **External validation remains an important future requirement**
    - The SOA survey emphasized external testing cohorts and residual leakage checks as important for robust Alzheimer's imaging models.
 
 ---
